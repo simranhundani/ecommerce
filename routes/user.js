@@ -9,6 +9,7 @@ const router=require("express").Router();
 //     res.send("your username is:" +username);
 
 // })
+router.put("./:id")
 
 
 
