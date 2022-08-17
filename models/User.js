@@ -11,6 +11,7 @@ const UserSchema=new mongoose.Schema({
         default:false,
 
     },
+    img:{String}
 
 },
 {timestamps:true}
